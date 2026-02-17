@@ -14,7 +14,7 @@ A personal portfolio website to showcase my projects, skills, and contact inform
 1. Open `index.html` in your browser
 2. Navigate through different sections: Home, About, Projects, Contact
 3. Use the contact form to send messages (EmailJS required)
-4. Explore projects and links
+4. Explore projects 
 
 ## Technologies Used
 - HTML
@@ -23,4 +23,4 @@ A personal portfolio website to showcase my projects, skills, and contact inform
 - EmailJS (for contact form)
 
 ## Author
-Mayuri Pardeshi
+Mayuri Pardeshi..
