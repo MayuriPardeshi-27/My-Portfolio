@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2 class="logo">Mayuri Pardeshi</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="work.html">Skills & Projects</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="card-section contact-section">
+  <h2>Contact Me</h2>
+
+  <p>Email: <a href="mailto:mayuripardeshi2003@gmail.com">mayuripardeshi2003@gmail.com</a></p>
+
+  <p class="reply-text">
+    Feel free to reach out. I usually respond within 24 hours.
+  </p>
+
+  <form id="contact-form">
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/mayuri-pardeshi-a63249339" target="_blank" class="social-btn">LinkedIn</a>
+    <a href="https://github.com/mayuripardeshi" target="_blank" class="social-btn">GitHub</a>
+  </div>
+
+</section> 
+<!-- contact section ends -->
+
+<footer>
+  <p>© 2026 Mayuri Pardeshi. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a> |
+    <a href="work.html">Skills & Projects</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-social">
+    <a href="https://www.linkedin.com/in/mayuri-pardeshi-a63249339" target="_blank">LinkedIn</a>
+    <a href="https://github.com/mayuripardeshi" target="_blank">GitHub</a>
+  </div>
+</footer>
+
+<!-- EmailJS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- JS FILE -->
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
